@@ -26,3 +26,8 @@ Woof
 Kitty
 -------------------------------------
 ```
+
+Delete docker image:
+```
+docker image rm practice2
+```
