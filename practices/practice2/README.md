@@ -1,2 +1,4 @@
-To run code, do the following:
-## ./script.bash
+# To run code, do the following:
+```bash
+./script.bash
+```
