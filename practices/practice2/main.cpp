@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 /*
-*						  Hierarchical Inheritance
+*						      Hierarchical Inheritance
 * 
 							Domesticated Animals
 							   /             \
 							 Dog             Cat
-                           /     \         /     \
-					   Husky    Boxer   Persian  Calico
+                           				/     \         /     \
+					   	    Husky    Boxer   Persian  Calico
 
 */
 
