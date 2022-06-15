@@ -53,7 +53,7 @@ class Cat : public DomesticAnimal {
 };
 
 class Husky : public Dog {
-public:
+ public:
 	Husky(int age, double weight, std::string name) {
 		this->m_age = age;
 		this->m_weight = weight;
@@ -64,7 +64,7 @@ public:
 };
 
 class Boxer : public Dog {
-public:
+ public:
 	Boxer(int age, double weight, std::string name) {
 		this->m_age = age;
 		this->m_weight = weight;
@@ -74,7 +74,7 @@ public:
 };
 
 class Persian : public Cat {
-public:
+ public:
 	Persian(int age, double weight, std::string name) {
 		this->m_age = age;
 		this->m_weight = weight;
@@ -84,7 +84,7 @@ public:
 };
 
 class Calico : public Cat {
-public:
+ public:
 	Calico(int age, double weight, std::string name) {
 		this->m_age = age;
 		this->m_weight = weight;
