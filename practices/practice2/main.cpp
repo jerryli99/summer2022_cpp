@@ -12,7 +12,7 @@
 */
 
 class DomesticAnimal{
-public:
+ public:
 	DomesticAnimal() : m_age(0), m_weight(0), m_name("No name") {}
 	~DomesticAnimal() {}
 
