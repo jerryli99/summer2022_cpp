@@ -28,7 +28,7 @@ class DomesticAnimal{
 		return m_name;
 	}
 
-protected:
+ protected:
 	int m_age;
 	double m_weight;
 	std::string m_name;
