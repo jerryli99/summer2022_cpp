@@ -16,7 +16,7 @@ class Cat : public DomesticAnimal {
  private:
 	string m_favorite_toy{ "None" }; //uniform initialization
 
-	//setter and getter canno be accessed after created an Calico instance.
+	//setter and getter canno be accessed after created a Calico instance.
 	//void set_cat_toy(const string& toy_name);
 	//string get_cat_toy() const;
 
