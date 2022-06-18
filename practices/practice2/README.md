@@ -7,10 +7,8 @@ Next:
 ```
 cd summer2022_cpp/practices/practice2
 ```
-or
-```
-git pull
-```
+
+Run ```git pull``` if needed.
 
 Change permission:
 ```
