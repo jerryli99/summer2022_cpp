@@ -1,4 +1,4 @@
-## Update: See cat.h, cat.cpp, calicon.h, and calicon.cpp
+## Update: See cat.h, cat.cpp, calico.h, and calico.cpp
 
 First:
 ```
