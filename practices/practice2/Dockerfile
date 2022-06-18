@@ -1,8 +1,8 @@
 FROM gcc:latest
 
-COPY . /usr/src/cpp_docker
+COPY . /usr/src/practice2
 
-WORKDIR /usr/src/cpp_docker
+WORKDIR /usr/src/practice2
 
 RUN g++ -o Main main.cpp domestic_animal.cpp dog.cpp cat.cpp \
 	boxer.cpp calico.cpp persian.cpp husky.cpp
