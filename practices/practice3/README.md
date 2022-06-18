@@ -27,8 +27,8 @@ To run code, do the following: (I assume you have Docker installed)
 ```
 ----------------Output---------------
 employee1 id: 123456
-manager1 salary: 123445
-associate1 id and salary: 35000, 443922
+manager1 salary: 50000
+associate1 id and salary: 444233, 35000.3
 -------------------------------------
 ```
 
