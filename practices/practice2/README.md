@@ -7,6 +7,10 @@ Next:
 ```
 cd summer2022_cpp/practices/practice2
 ```
+or
+```
+git pull
+```
 
 Change permission:
 ```
@@ -24,6 +28,11 @@ No name
 2
 Woof
 Kitty
+--------------------------------
+Kitty2
+Red Ball
+--------------------------------
+{Start-> | House | street | Woods | }
 -------------------------------------
 ```
 
