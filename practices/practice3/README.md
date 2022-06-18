@@ -26,8 +26,9 @@ To run code, do the following: (I assume you have Docker installed)
 
 ```
 ----------------Output---------------
-123456
-35.023
+employee1 id: 123456
+manager1 salary: 123445
+associate1 id and salary: 35000, 443922
 -------------------------------------
 ```
 
