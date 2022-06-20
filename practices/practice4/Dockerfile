@@ -1,8 +1,8 @@
 FROM gcc:latest
 
-COPY . /usr/src/cpp_docker
+COPY . /usr/src/practice4
 
-WORKDIR /usr/src/cpp_docker
+WORKDIR /usr/src/practice4
 
 RUN g++ -o Main main.cpp automobiles.cpp car.cpp
 
