@@ -5,11 +5,11 @@
 #include <string>
 
 /*
-                    Automobiles
+                    			Automobiles
 					     |
-						 | (private inheritance)
-						 |
-				        Car
+					     | (private inheritance)
+					     |
+				            Car
 
 
 */
@@ -24,6 +24,11 @@ int main() {
 	car1->get_owner_name();
 	car1->m_automobile_color;
 	car1->m_automobile_name;
+	
+	For
+	class Car: protected Automobiles
+	
+	These will still not be accessible.
 	*/
 
 	return 0;
