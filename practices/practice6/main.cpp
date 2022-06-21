@@ -13,7 +13,7 @@
                         | (StemTeacher public Inherits Teacher) 
                         |
     Book ---------> StemTeacher ---------> TeacherPortal <----------Student
-	     (aggregation)         (aggregation)             (aggregation)
+      (aggregation)           (aggregation)             (aggregation)
 
 
 */
