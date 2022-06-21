@@ -1,8 +1,8 @@
 FROM gcc:latest
 
-COPY . /usr/src/cpp_docker
+COPY . /usr/src/practice5
 
-WORKDIR /usr/src/cpp_docker
+WORKDIR /usr/src/practice5
 
 RUN g++ -o Main main.cpp land.cpp house.cpp
 
