@@ -19,3 +19,7 @@ bool House::OverSizedHouseArea() {
 
 	return false;
 }
+
+double House::get_area() const {
+	return m_house_length * m_house_width;
+}
