@@ -13,6 +13,7 @@ public:
 	double m_house_width{ 0.0 };
 
 	bool OverSizedHouseArea();
+	//double get_area() const;
 
 	//could make house_length, house_width private.
 	// add setter & getter in public.
