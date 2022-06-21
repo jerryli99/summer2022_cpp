@@ -12,6 +12,7 @@ public:
 	~Land();
 
 	double get_land_area() const;
+	//double get_area() const;
 	string get_land_buyer() const;
 
 	//could have more functions, like price, loan functions added later
