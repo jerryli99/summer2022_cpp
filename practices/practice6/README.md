@@ -172,6 +172,24 @@ course6:
   Student ID:   923456
   Student exam1 score: 80
   Student exam2 score: 99
+  Student final exam score: 80,
+
+  Student name: Oliver
+  Student ID:   788966
+  Student exam1 score: 20
+  Student exam2 score: 59
+  Student final exam score: 20,
+
+ ],
+course7:
+ [
+  Student name: Sean
+  Student ID:   123006
+  Student exam1 score: 80
+  Student exam2 score: 99
+  Student final exam score: 80,
+
+ ],
 course8:
  [
   Student name: Queen
