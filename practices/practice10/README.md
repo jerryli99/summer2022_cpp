@@ -19,6 +19,7 @@ To run code, do the following: (I assume you have Docker installed)
 ## Update
 Reduced docker build image size from ~1.27GB to ~185MB 
 
+## Result
 ```
 --------------------Output---------------------
 ClassName: This is Circle
