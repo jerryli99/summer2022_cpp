@@ -29,7 +29,7 @@ using namespace std;
     Object relation diagram:
 
     CharacterAbility -------------> Character (base)
-	                 (composition)        |
+	             (composition)            |
                                               |   (public inheritance)
                                               |
 					GameUser (derived)
