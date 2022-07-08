@@ -25,6 +25,19 @@ Flood                    Use Flood can washout animals.                         
 Fire                     Use Fire can burn down trees.                               5              90
 
 
+Ability_Name:            Ability_Description:                                        Level:         Damage:        
+Speak                    Use a speaker to tell people be like a bunny.               20             10
+Flood                    Use Flood can washout animals.                              10             65
+Fire                     Use Fire can burn down trees.                               5              90
+
+
+----------------------------------------------------------------------------------------------------
+User name: jerry
+User role: Bunny
+User gold: 200000
+
+Ability_Name:            Ability_Description:                                        Level:         Damage:        
+Kong Fu                  Have the ability to fight ninja fox on a 12 ft tall tree.   10             40
 Hide                     Become invisible for 4 seconds.                             15             30
 Flood                    Use Flood can washout animals.                              20             22
 Fire                     Use Fire can burn down trees.                               5              90
@@ -34,7 +47,7 @@ Fire                     Use Fire can burn down trees.                          
 
 User gold: 199992
 
-Ability_Name:            Ability_Description:                                        Level:         Damage:
+Ability_Name:            Ability_Description:                                        Level:         Damage:        
 Kong Fu                  Have the ability to fight ninja fox on a 12 ft tall tree.   10             60
 Hide                     Become invisible for 4 seconds.                             17             30
 Flood                    Use Flood can washout animals.                              20             42
