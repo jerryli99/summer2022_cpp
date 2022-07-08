@@ -30,15 +30,15 @@ using namespace std;
 
     CharacterAbility -------------> Character (base)
 	                 (composition)        |
-                                          |   (public inheritance)
-                                          |
-									   GameUser (derived)
+                                              |   (public inheritance)
+                                              |
+					GameUser (derived)
     This code is just for practice. 
 	The UpdateHealth() function needs modification, for example, UpdateCharacterHealth(const Character& character).
 	I can make many improvements, but it will take me a longer time to do that.
 
 	Here, I demonstrated a virtual function override example from 18.3.
-	The whole point of this program is to see what problems might appear when starting to design a big program and 
+	The whole point of this program is to see what problems might occure when starting to design a big program and 
 	how to fully utilize virtual functions in big programs.
 */
 
@@ -101,7 +101,7 @@ int main() {
 	  Thoughts:
 
 	  Last time (Cpater 18.2), I memtioned that one reason to use base pointer to 
-	  point a derived object is to hide the base object's variability.
+	  point to a derived object is to hide the base object's variability.
 
 	  For example, we can create a Window (base). In the Window, there are side bars, 
 	  scroll bars, images, layouts, buttons, etc that all inherit from Window. 
@@ -132,7 +132,7 @@ int main() {
 	  There must be a data structure to give direction to which function definition to use, something like a yellow book.
 
 	  Since there is the virtual keyword, maybe there is a virtual book or virtual table.
-	  We should also have a virtual table pointer that can point to the addresses of the functions in the virtual table.
+	  We should also have a virtual pointer that can point to the addresses of the functions in the virtual table.
 	  ---------------------------------------------------------------------------------------------------------------------
 	  When I write functions in a class, I can have something like this:
 	  
@@ -177,7 +177,7 @@ int main() {
 		
 	  
 	  This will use the function1(short num) in base because the parameter of function1 
-	  in the Base class is different in the Derive class.
+	  in the Base class is different in the Derive class, which is not considered as override.
 
 	  How about virtual function override?
 
@@ -205,8 +205,7 @@ int main() {
 		 //have something different than in base class
 	  }
 	  
-	  The difference is I can redefine the virtual function 
-	  from the base class.
+	  The difference is I can redefine the virtual function from the base class.
 
 	  But what if I really want to have overloaded virtual functions?
 	  To solve this, I can just have this:
