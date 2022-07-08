@@ -16,8 +16,6 @@ To run code, do the following: (I assume you have Docker installed)
 ```bash
 ./script.sh
 ```
-## Update
-# Reduced docker build image size from ~1.27GB to ~185MB 
 
 ```
 ----------------------------Output-----------------------------
