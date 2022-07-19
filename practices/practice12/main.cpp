@@ -43,7 +43,7 @@ unsigned short BitsToDecimal(bool (&input)[INPUT_BOOL_ARRAY_SIZE]) {
 
                                             (vendor)     send
                 Customer ----------------> PhotoOrder ==========> Order_Queue (workers can see the queue) 
-				          (association)
+		           (association)
 */
 
 int main() {	
