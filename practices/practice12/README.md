@@ -4,7 +4,7 @@ or ```cd summer2022_cpp``` and then do a ```git pull```
 
 Next:
 ```
-cd summer2022_cpp/practices/practice11
+cd summer2022_cpp/practices/practice12
 ```
 
 Change permission:
