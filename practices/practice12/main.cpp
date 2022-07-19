@@ -51,9 +51,9 @@ int main() {
 	cout << "\nPart 1:\n\n";
 	bool input[INPUT_BOOL_ARRAY_SIZE] = { true, false, false, false, true, true, true, false, true, true};
 
-    for (int i = 0; i < 10; i++) {
-        cout << input[i];
-    }
+        for (int i = 0; i < 10; i++) {
+        	cout << input[i];
+        }
 
 	cout << "\n";
 
@@ -144,7 +144,7 @@ int main() {
 		PhotoOrder* order4 = new PhotoOrder(5674, "GM646KW9", *customer4);
 		PhotoOrder* order5 = new PhotoOrder(5674, "GM646KW9", *customer5);
 		PhotoOrder* order6 = new PhotoOrder(5674, "GM646KW9", *customer6);
-	    PhotoOrder* order7 = new PhotoOrder(5674, "GM646KW9", *customer7);
+	        PhotoOrder* order7 = new PhotoOrder(5674, "GM646KW9", *customer7);
 		PhotoOrder* order8 = new PhotoOrder(5674, "GM646KW9", *customer8);
 
 		my_queues::Queue<PhotoOrder>* order_queue = new my_queues::Queue<PhotoOrder>(8);
