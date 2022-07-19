@@ -66,14 +66,14 @@ class CircularQueue : public my_queues::Queue<T>{
 		return false;
 	}
 
-	virtual T& Peek() {
+	T& Peek() override {
 		if (IsEmpty()) {
-			throw "Queue underflow.";
+			throw "CircularQueue underflow.";
 		}
 		return m_circular_queue_array[m_front];
 	}
 
-	void Display() {
+	void Display() override {
 		if (IsEmpty()) {
 			std::cout << "Empty CircularQueue.\n";
 		} 
