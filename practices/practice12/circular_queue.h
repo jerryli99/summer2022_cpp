@@ -11,7 +11,7 @@ class CircularQueue : public my_queues::Queue<T>{
 		: m_circular_queue_capacity{ circular_queue_capacity } {
 
 		m_circular_queue_array = new T[m_circular_queue_capacity];
-};
+	};
 
 	virtual ~CircularQueue() {
 		std::cout << "\nCalling destructor from CricularQueue.\n";
