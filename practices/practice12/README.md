@@ -21,11 +21,6 @@ To run code, do the following: (I assume you have Docker installed)
 ----------------------------Output-----------------------------
 Part 1:
 
-1000111011
-571
--------------------------------------------------------------
-Part 2:
-
 Normal queue with default capacity 8
 1
 2
@@ -72,7 +67,7 @@ Calling destructor from Queue.
 
 
 -------------------------------------------------------------
-Part 3:
+Part 2:
 
 Store id: 5674
 Vendor id: GM646KW9
