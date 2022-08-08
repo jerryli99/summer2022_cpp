@@ -183,6 +183,7 @@ Class relations:
 
 */
 int main() {
+	//Simple test
 	SingleLinkedList<int>* test1 = new SingleLinkedList<int>();
 	std::cout << "Add nodes: 1, 2, 3 to linkedlist\n";
 	test1->AddEnd(1);
