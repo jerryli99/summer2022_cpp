@@ -123,7 +123,8 @@ using namespace j_model;
 
 	so instead of directly calling the functions, we are taking sometime to find the function we are trying to call.
 	However, does the compiler know which function to use? YES.
-    By following the assembly code, it goes:
+	
+        By following the assembly code, it goes:
 	1. Compiler creates a hidden class member *_vptr.
 	2. *_vptr points to the vtable. (an array of function addresses).
 	3. Get the correct function address from the vtable and store the function address into a register.
@@ -166,7 +167,18 @@ using namespace j_model;
                __________
                |        |
            Node class   | next
-		           |____|
+		   |____|
+
+
+Class relations:
+
+                                                      (abstract class, interface)
+          Node<T> (base)                                 ILinkedList<T> (base) 
+              |                                               |
+	      | public inheritance                            | public inheritance
+	      |                                               |
+          UniDirNode<T> (derived) -------------------> SingleLinkedList<T> (derived)
+                                      composition
 
 
 */
