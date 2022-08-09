@@ -1,3 +1,5 @@
+![This is an image](https://github.com/jerryli99/summer2022_cpp/blob/main/practices/practice13/Screenshot%20(59).png)
+
 First: ```git clone https://github.com/jerryli99/summer2022_cpp.git```
 
 or ```cd summer2022_cpp``` and then do a ```git pull```
