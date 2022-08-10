@@ -2,11 +2,16 @@
 
 First: ```git clone https://github.com/jerryli99/summer2022_cpp.git```
 
-or ```cd summer2022_cpp``` and then do a ```git pull```
+or ```cd summer2022_cpp```
 
 Next:
 ```
 git checkout practice14_branch
+```
+
+And then do ```git pull```
+
+```
 cd summer2022_cpp/practices/practice14
 ```
 
