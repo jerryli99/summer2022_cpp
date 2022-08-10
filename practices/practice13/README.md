@@ -4,9 +4,9 @@ First: ```git clone https://github.com/jerryli99/summer2022_cpp.git```
 
 or ```cd summer2022_cpp``` and then do a ```git pull```
 
-Next:
+Then
 ```
-cd summer2022_cpp/practices/practice13
+cd practices/practice13
 ```
 
 Change permission:
