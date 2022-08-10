@@ -9,7 +9,7 @@ Next:
 git checkout practice14_branch
 ```
 
-And then do ```git pull```
+And then do ```git pull``` 
 
 ```
 cd summer2022_cpp/practices/practice14
