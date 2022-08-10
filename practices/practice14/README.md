@@ -1,9 +1,12 @@
+#Notice: This is not in the main branch. This is the practice14_branch branch!
+
 First: ```git clone https://github.com/jerryli99/summer2022_cpp.git```
 
 or ```cd summer2022_cpp``` and then do a ```git pull```
 
 Next:
 ```
+git checkout practice14_branch
 cd summer2022_cpp/practices/practice14
 ```
 
