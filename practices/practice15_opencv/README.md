@@ -1,4 +1,4 @@
-## The opencv version I used is 4.6.0
+## The opencv version is 4.6.0
 
 If you want to have a build setup like I do, follow the instructions below:
 
