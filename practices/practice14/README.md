@@ -12,7 +12,7 @@ git checkout practice14_branch
 And then do ```git pull``` 
 
 ```
-cd summer2022_cpp/practices/practice14
+cd practices/practice14
 ```
 
 Change permission:
