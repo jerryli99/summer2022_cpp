@@ -16,7 +16,7 @@ I use Vistual Studio 2022, so an empty project. In the project properties, go to
 add ```your drive here:\opencv\build\include``` in General->Include Directories; <br/>
 add ```your drive here:\opencv\build\x64\vc15\lib``` in General->Lirary Directories. <br/>
 
-After this, go to the "Linker". 
+After this, go to the "Linker". <br/>
 add ```opencv_world460d.lib``` in Additional Dependencies.
 
 Click apply. 
