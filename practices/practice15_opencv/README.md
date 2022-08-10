@@ -23,5 +23,5 @@ Click apply.
 
 Done.
 
-Then do git clone or just copy the files. 
+Then do git clone or just copy the files if you want to try my code. 
 
