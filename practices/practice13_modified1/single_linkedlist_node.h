@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace j_model {
+namespace my_datastructure {
 
 template<class T>
 class SingleLinkedlistNode {
@@ -56,4 +56,4 @@ void SingleLinkedlistNode<T>::set_next_node(SingleLinkedlistNode<T>* next) {
 	m_next = next;
 }
 
-} //namespace j_model
+} //namespace my_datastructure
