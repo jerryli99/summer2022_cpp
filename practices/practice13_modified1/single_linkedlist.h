@@ -3,7 +3,7 @@
 #include "linkedlist_interface.h"
 #include "single_linkedlist_node.h"
 
-namespace j_model {
+namespace my_datastructure {
 
 template<class T>
 class SingleLinkedlist : public LinkedlistInterface<T> {
@@ -144,4 +144,4 @@ unsigned SingleLinkedlist<T>::get_size() const {
 	return m_size;
 }
 
-} //namespace j_model
+} //namespace my_datastructure
