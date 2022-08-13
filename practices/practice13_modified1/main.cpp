@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 
-using namespace j_model;
+using namespace my_datastructure;
 
 //for quick testing purposes
 class Item {
