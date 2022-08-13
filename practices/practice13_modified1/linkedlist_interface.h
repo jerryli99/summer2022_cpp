@@ -4,7 +4,7 @@
 	This is a Linkedlist interface. Can be used when creating a
 	single, double, circular, etc linkedlists.
 */
-namespace j_model {
+namespace my_datastructure {
 
 template<class T>
 class LinkedlistInterface {
@@ -23,4 +23,4 @@ class LinkedlistInterface {
 	virtual bool contains(const T& data) = 0;
 };
 
-} //namespace j_model
+} //namespace my_datastructure
