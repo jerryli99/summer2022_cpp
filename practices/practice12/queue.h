@@ -17,9 +17,9 @@
 /*
     This Queue class might not be the perfect Queue class, 
     but I wrote this class to first test virtual destructors, 
-	and then test how namespaces are used and how templates are used.
+    and then test how namespaces are used and how templates are used.
 
-	I changed my if-elseif-else indentation style from:
+    I changed my if-elseif-else indentation style from:
 	if () {
 
 	} else if () {
@@ -44,7 +44,7 @@
 
 /*
     I made all functions virtual because I might implement 
-	a linked list version of queue in the future.
+    a linked list version of queue in the future.
 */
 
 namespace my_queues {

@@ -5,32 +5,13 @@
 
 #include <iostream>
 
-#define INPUT_BOOL_ARRAY_SIZE 10
-
 using namespace std;
 using namespace cvs_stores::cvs_orders;
 
-//-------------------------------------------------------------------------------------------
-//assume everything like the input and input array size are all valid.
-unsigned short BitsToDecimal(bool (&input)[INPUT_BOOL_ARRAY_SIZE]) {
-	unsigned short result = 0x00;
-	
-	for (int i = 0; i < INPUT_BOOL_ARRAY_SIZE; i++) {
-		result |= input[i] << (INPUT_BOOL_ARRAY_SIZE - 1 - i);
-	}
-
-	return result;
-}
-//-------------------------------------------------------------------------------------------
-
 /*
- There are three parts in the main():
- 
- Part1: test Question: Write a 10 Bit array to 2 Btyes function.
-	   Given size 10 array, with values either true or false. 
-	   Convert the input array into unsigned short, then return.
- 
- Part2: test the Queue and CircularQueue. 
+ There are two parts in the main():
+
+ Part1: test the Queue and CircularQueue. 
                        Queue (base)
                            |
                            | public inherit
@@ -38,29 +19,16 @@ unsigned short BitsToDecimal(bool (&input)[INPUT_BOOL_ARRAY_SIZE]) {
                       Circular Queue (derive)
 
 
- Part3: test CVS Photo Order Queue. CVS means the CVS pharmacy I am working at.
+ Part2: test CVS Photo Order Queue. CVS means the CVS pharmacy I am working at.
  Improvements: use Json objects as input data.
 
                                             (vendor)     send
                 Customer ----------------> PhotoOrder ==========> Order_Queue (workers can see the queue) 
-				          (association)
+		           (association)
 */
 
 int main() {	
-	//Part 1
-	cout << "\nPart 1:\n\n";
-	bool input[INPUT_BOOL_ARRAY_SIZE] = { true, false, false, false, true, true, true, false, true, true};
-
-    for (int i = 0; i < 10; i++) {
-        cout << input[i];
-    }
-
-	cout << "\n";
-
-	//cout << hex << BitsToDecimal(input); //using std::hex is bad because this overrides cout for numbers like 10 will now be a.
-	cout << BitsToDecimal(input);
-	cout << "\n-------------------------------------------------------------\n";
-	cout << "Part 2:\n\n";
+	cout << "Part 1:\n\n";
 	/*  
 	  when I set the queue capacity to 7, the message from Full() will print out. 
 	  Since Full() a virtual function, 
@@ -71,7 +39,6 @@ int main() {
 	*/
 
 	try {
-		//Part 2
 		my_queues::Queue<int>* q = new my_queues::Queue<int>(8);
 		my_queues::Queue<int>* q1 = new my_queues::CircularQueue<int>(8);
 
@@ -123,9 +90,9 @@ int main() {
 
 		delete q1;
 		cout << "\n\n";
-		//Part 3
+		//Part 2
 		cout << "\n-------------------------------------------------------------\n";
-		cout << "Part 3:\n\n";
+		cout << "Part 2:\n\n";
 
 		//customers go to CVS and fill in their information to develop their camera film roll.
 		Customer* customer1 = new Customer("John", "johneie123@gmail.com", "975-222-3333", "10-4'x6'");
@@ -144,7 +111,7 @@ int main() {
 		PhotoOrder* order4 = new PhotoOrder(5674, "GM646KW9", *customer4);
 		PhotoOrder* order5 = new PhotoOrder(5674, "GM646KW9", *customer5);
 		PhotoOrder* order6 = new PhotoOrder(5674, "GM646KW9", *customer6);
-	    PhotoOrder* order7 = new PhotoOrder(5674, "GM646KW9", *customer7);
+	        PhotoOrder* order7 = new PhotoOrder(5674, "GM646KW9", *customer7);
 		PhotoOrder* order8 = new PhotoOrder(5674, "GM646KW9", *customer8);
 
 		my_queues::Queue<PhotoOrder>* order_queue = new my_queues::Queue<PhotoOrder>(8);
